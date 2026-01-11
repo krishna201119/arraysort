@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <p>click the button to evaluate/execute Javascript code/expression.</p>
+        <button onclick="myfuction()">try it</button>
+        <p id="results"></p>
+        <script>
+            function myfunction() {
+                var x = 10;
+                var y = 20;
+                var a = eval("x + y") 
+                var res = a; //conatenates the string
+                document.getElementsByid("results").innerHTML = res;
+            }
+        </script>
+    </body>
+</html>
